@@ -8,5 +8,5 @@ while c <= 100:
     c = a + b
 print("Fibonacci数列中第一个大于100的数是%d。" % (c))
 a = b
-name = input("Your name?")
-print("Hello,", name)
+a = input("if you like me ")
+print(a)
