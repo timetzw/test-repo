@@ -7,8 +7,3 @@ while c <= 100:
     b = c
     c = a + b
 print("Fibonacci数列中第一个大于100的数是%d。" % (c))
-a = b
-a = input("if you like me ")
-print(a)
-b = c
-
