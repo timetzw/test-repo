@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 def slope(p1, p2):
-    return (p1[1]-p2[1])/(p1[0]-p2[0])
+    return (p1[1] - p2[1]) / (p1[0] - p2[0])
 
 
 def intercept(p1, p2):
     k = slope(p1, p2)
-    b = p1[1]-k*p1[0]
+    b = p1[1] - k * p1[0]
     return b
 
 
@@ -19,10 +19,8 @@ def p1input():
 
 
 def p2input():
-    p2x = input(
-        "Please input the x coordinator of the second point on R^2 flat:")
-    p2y = input(
-        "Please input the y coordinator of the second point on R^2 flat:")
+    p2x = input("Please input the x coordinator of the second point on R^2 flat:")
+    p2y = input("Please input the y coordinator of the second point on R^2 flat:")
 
     p2 = (p2x, p2y)
 
